@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.annotation.NonNull;
 import com.ebookfrenzy.roomdemo.Product;
 import java.util.List;
-
+//comment
 public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.ViewHolder> {
         private final int productItemLayout;
         private List<Product> productList;

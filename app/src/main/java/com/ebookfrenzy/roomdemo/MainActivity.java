@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.ebookfrenzy.roomdemo.ui.main.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
-
+    //comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

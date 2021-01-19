@@ -10,6 +10,7 @@ import java.util.List;
 
 public class MainViewModel extends AndroidViewModel {
     // TODO: Implement the ViewModel
+    // comment
     private ProductRepository repository;
     private LiveData<List<Product>> allProducts;
     private MutableLiveData<List<Product>> searchResults;

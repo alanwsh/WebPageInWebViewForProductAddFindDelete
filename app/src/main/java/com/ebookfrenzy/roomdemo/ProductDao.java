@@ -6,6 +6,7 @@ import androidx.room.Query;
 import java.util.List;
 @Dao
 public interface ProductDao {
+    //comment
     @Insert
     void insertProduct(Product product);
     @Query("SELECT * FROM products WHERE productName = :name")

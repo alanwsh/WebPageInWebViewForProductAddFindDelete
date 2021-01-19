@@ -11,6 +11,7 @@ import androidx.lifecycle.LiveData;
 
 
 public class ProductRepository {
+    //comment
     private final MutableLiveData<List<Product>> searchResults =
             new MutableLiveData<>();
     private List<Product> results;

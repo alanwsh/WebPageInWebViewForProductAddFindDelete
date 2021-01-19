@@ -22,7 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 public class MainFragment extends Fragment {
-
+    //comment
     private MainViewModel mViewModel;
     private ProductListAdapter adapter;
     private TextView productId;
