@@ -1,11 +1,13 @@
 package com.ebookfrenzy.roomdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
+import java.net.URL;
+import android.net.Uri;
+import android.content.Intent;
+import android.view.View;
+import android.webkit.WebView;
 import com.ebookfrenzy.roomdemo.ui.main.MainFragment;
-
 public class MainActivity extends AppCompatActivity {
     //comment
     @Override
@@ -18,4 +20,10 @@ public class MainActivity extends AppCompatActivity {
                     .commitNow();
         }
     }
+
+    public void showWebPage(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https:/www.ebookfrenzy.com"));
+        startActivity(intent);
+    }
+
 }

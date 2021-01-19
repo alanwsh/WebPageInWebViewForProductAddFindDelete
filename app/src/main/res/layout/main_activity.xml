@@ -4,5 +4,12 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" />
-<!--comment-->
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/helpbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showWebPage"
+        android:text="@string/help" />
+    <!--comment--></FrameLayout>
