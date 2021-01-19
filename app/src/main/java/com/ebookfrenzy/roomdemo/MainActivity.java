@@ -22,8 +22,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showWebPage(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https:/www.ebookfrenzy.com"));
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://sites.google.com/student.mmu.edu.my/wongshouhongtutorial8/home"));
         startActivity(intent);
     }
 
 }
+
