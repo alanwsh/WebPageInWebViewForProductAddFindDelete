@@ -11,7 +11,7 @@ import com.ebookfrenzy.roomdemo.ui.main.MainFragment;
 public class WebActivity extends AppCompatActivity {
 
     @Override
-    /*protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         if (savedInstanceState == null) {
